@@ -1,0 +1,6 @@
+- name: Configure AWS credentials
+  uses: aws-actions/configure-aws-credentials@v1
+  with:
+    aws-access-key-id: ${{ AKIAQUWFVA3HEFQ2YTTA }}
+    aws-secret-access-key: ${{ BIZum12h9VpXfrn/3LePVRl8FtBtc+go33DLIVzW }}
+    aws-region: <ap-south-1> # Replace with your desired AWS region
